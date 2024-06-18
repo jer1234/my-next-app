@@ -8,7 +8,7 @@ Zurich Web Portal is a Next.js application with  user authentication and display
 
 - Display a list of users with avatars, names, and masked email addresses.
 - Allow users to sign in with Google authentication.
-- Footer with copyright information.
+- Header & Footer (reusable component)
 
 ## Technologies Used
 
@@ -30,18 +30,20 @@ Make sure you have the following installed on your development machine:
 
 Clone the repository and install dependencies:
 
-`
+```
 git clone <repository-url>
 cd my-next-app
-npm install`
-
+npm install
+```
 
 Create  your .env.local :
-`
+```
 GOOGLE_CLIENT_ID= your_client_ID
 GOOGLE_CLIENT_SECRET= your_client_secret`
-
+```
 Run your project
-`npm run dev`
+```
+npm run dev
+```
 
 
